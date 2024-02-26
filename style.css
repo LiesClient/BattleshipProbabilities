@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  font-family: monospace;
+  white-space: pre;
+  user-select: none;
+}
+
+#hitlist {
+  color: white;
+  position: absolute;
+  display: block;
+  left: 5%;
+  top: 5%;
+  font-size: 1.25em;
+}
+
+#display, #piece {
+  display: block;
+  image-rendering: pixelated;
+  border: 1px solid white; 
+}
+
+#display {
+  position: absolute;
+  left: 15%;
+  right: 35%;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 50%; 
+  height: auto;
+}
+
+#piece {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  width: 25%;
+  height: auto;
+}
